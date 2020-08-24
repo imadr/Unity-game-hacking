@@ -17,12 +17,14 @@ This is a small guide for extracting and modifying assets or code from games mad
         ...
     |   levelN
     |   levelN.resS
+    |   resources.assets
+    |   resources.assets.resS
+    |   resources.resource
     │   sharedassets0.assets
     │   sharedassets0.assets.resS
         ...
     |   sharedassetsN.assets
     |   sharedassetsN.assets.resS
-    |   resources.assets
     ├───Managed
     │       Assembly-CSharp.dll
     │       Assembly-UnityScript.dll
@@ -72,11 +74,11 @@ Assembly-UnityScript.dll | DLL file containing compiled UnityScript files
 
 ## Extracting and editing code
 
-C# and UnityScript files are compiled into the Assembly-CSharp.dll and Assembly-UnityScript.dll DLLs respectively, which can be found inside the Managed folder.
+C# and UnityScript files are compiled into the Assembly-CSharp.dll and Assembly-UnityScript.dll DLLs respectively, which can be found inside the `Managed` folder.
 
 DLLs can be decompiled using [ILSpy](http://ilspy.net/) or [dnSpy](https://github.com/0xd4d/dnSpy) which allow modifying and recompiling assembly files.
 
-If DLLs are missing from the managed directory, try dumping them using this tool [MegaDumper](https://github.com/CodeCracker-Tools/MegaDumper)
+If DLLs are missing from the `Managed` directory, try dumping them using this tool [MegaDumper](https://github.com/CodeCracker-Tools/MegaDumper)
 
 ## Extracting assets
 
