@@ -64,8 +64,8 @@ File/Directory | Description
 *.exe | Executable file of the game
 *_Data | Data folder containing the game resources
 level0-levelN | Files containing game scenes data, each scene has its own file
-sharedassets0-sharedassetsN | Game assets are split into sharedassets and .resS files
-resources.assets | Assets found in the project resources folders and their dependencies are stored in this file
+sharedassets0-sharedassetsN | Game assets are split into sharedassets and .resS files (sharedassets.assets.split0 - ..splitN on platforms like Android/iOS)
+resources.assets | Raw Assets found in the project resources folders and their dependencies are stored in this file (as well as raw audio files, even if outside of Resources folder in Unity, AudioClips with references to .resource and info such as audio size/offset still stored inside .assets)
 Managed | Folder containing unity DLLs
 Assembly-CSharp.dll | DLL file containing compiled C# files
 Assembly-UnityScript.dll | DLL file containing compiled UnityScript files
@@ -89,6 +89,9 @@ Tool | Description
 [Unity Assets Bundle Extractor](https://7daystodie.com/forums/showthread.php?22675-Unity-Assets-Bundle-Extractor) | UABE is a tool that allow modification of assets file and extraction of assets in usable formats (png/tga for textures, obj for meshes).
 [Unity Assets Explorer](http://zenhax.com/viewtopic.php?f=9&t=36) | Can extract textures to .DDS format, meshes to .43 format.
 [QuickBMS](http://aluigi.altervista.org/quickbms.htm) with [this script](http://aluigi.altervista.org/bms/unity.bms) or [this one for webplayer](http://aluigi.org/papers/bms/unity3d_webplayer.bms) |
+[DevXUnityUnpacker](https://devxdevelopment.com/Unpacker) | A (paid) tool with a friendly GUI meant for restoring unity projects by inputting the built game/app including a previewer for individual files as image, hex, text etc.
+[UnityEX](https://yadi.sk/d/m3vFWoQ3j62Cr) | Tool for extracting/converting files from .assets bundles and replacing files (Mostly used for replacing textures).
+
 
 #### DDS files :
 
@@ -97,6 +100,12 @@ The [DDS](https://en.wikipedia.org/wiki/DirectDraw_Surface) files can be opened/
 #### Another way of extracting meshes and textures :
 
 Use [3D Ripper DX](http://www.deep-shadows.com/hax/3DRipperDX.htm) (doesn't support 64 bits binaries) or [Ninja Ripper](http://cgig.ru/en/2012/10/ho-to-use-ninja-ripper/).
+
+Alternatives:
+Tool | Tutorial
+--- | ---
+[RenderDoc](https://renderdoc.org/) | [Tutorial](https://www.youtube.com/watch?v=yPLxCm3SyPU) on how to use RenderDoc.
+[Intel® Graphics Performance Analyzers](https://software.intel.com/content/www/us/en/develop/tools/graphics-performance-analyzers.html) | [Tutorial](https://forum.xentax.com/viewtopic.php?t=12262) on how to use the Intel Graphics Analyzers to extract graphics.
 
 ## Hacking memory
 
