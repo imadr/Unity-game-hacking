@@ -17,12 +17,14 @@ This is a small guide for extracting and modifying assets or code from games mad
         ...
     |   levelN
     |   levelN.resS
+    |   resources.assets
+    |   resources.assets.resS
+    |   resources.resource
     │   sharedassets0.assets
     │   sharedassets0.assets.resS
         ...
     |   sharedassetsN.assets
     |   sharedassetsN.assets.resS
-    |   resources.assets
     ├───Managed
     │       Assembly-CSharp.dll
     │       Assembly-UnityScript.dll
@@ -76,7 +78,7 @@ C# and UnityScript files are compiled into the Assembly-CSharp.dll and Assembly-
 
 DLLs can be decompiled using [ILSpy](http://ilspy.net/) or [dnSpy](https://github.com/0xd4d/dnSpy) which allow modifying and recompiling assembly files.
 
-If DLLs are missing from the managed directory, try dumping them using this tool [MegaDumper](https://github.com/CodeCracker-Tools/MegaDumper)
+If DLLs are missing from the managed directory, try dumping them using [Il2CppDumper](https://github.com/Perfare/Il2CppDumper) or [MegaDumper](https://github.com/CodeCracker-Tools/MegaDumper)
 
 ## Extracting assets
 
@@ -85,8 +87,9 @@ Assets are stored in the .assets and .resS files. Content of these files can be 
 Tool | Description
 --- | ---
 [UtinyRipper](https://github.com/mafaca/UtinyRipper) | uTinyRipper is a tool for extracting assets from serialized files (CAB-*, *.assets, *.sharedAssets, etc.) and assets bundles (*.unity3d, *.assetbundle, etc.) and conveting them into native Engine format.
-[Unity Studio](https://github.com/RaduMC/UnityStudio) | A tool for exploring, extracting and exporting assets from Unity games and apps.
-[Unity Assets Bundle Extractor](https://7daystodie.com/forums/showthread.php?22675-Unity-Assets-Bundle-Extractor) | UABE is a tool that allow modification of assets file and extraction of assets in usable formats (png/tga for textures, obj for meshes).
+[Asset Studio](https://github.com/RaduMC/UnityStudio) | AssetStudio is a tool for exploring, extracting and exporting assets from Unity games and apps.
+[Unity Assets Advanced Editor](https://github.com/Igor55x/UAAE) | UAAE is an advanced tool that based on UABE, but improves its functions.
+[Unity Assets Bundle Extractor](https://github.com/DerPopo/UABE) | UABE is a tool that allow modification of assets file and extraction of assets in usable formats (png/tga for textures, obj for meshes).
 [Unity Assets Explorer](http://zenhax.com/viewtopic.php?f=9&t=36) | Can extract textures to .DDS format, meshes to .43 format.
 [QuickBMS](http://aluigi.altervista.org/quickbms.htm) with [this script](http://aluigi.altervista.org/bms/unity.bms) or [this one for webplayer](http://aluigi.org/papers/bms/unity3d_webplayer.bms) |
 [DevXUnityUnpacker](https://devxdevelopment.com/Unpacker) | A (paid) tool with a friendly GUI meant for restoring unity projects by inputting the built game/app including a previewer for individual files as image, hex, text etc.
