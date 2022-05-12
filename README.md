@@ -88,12 +88,12 @@ Tool | Decription
 --- | ---
 [ILSpy](https://github.com/icsharpcode/ILSpy) | Cross-platform .NET Decompiler with support for PDB generation, ReadyToRun, Metadata (&more).
 [DotPeek](https://www.jetbrains.com/decompiler/) | JetBrains DotPeek is a free .NET Decompiler and Assembly Browser.
-[dnSpyEx](https://github.com/dnSpyEx/dnSpy) | Unofficial revival of the well known .NET debugger and assembly editor, dnSpy.
+[dnSpyEx](https://github.com/dnSpyEx/dnSpy) | Unofficial revival of the well known .NET debugger and assembly editor, dnSpy. <br /> **Fork of ``dnSpy``.**
 [Telerik JustAssembly](https://www.telerik.com/justassembly) | Decompile and Compare .NET Assemblies. Binary Code Diff. Method Diff.
 [Cpp2IL](https://github.com/SamboyCoding/Cpp2IL) | Work-in-progress tool to reverse unity's IL2CPP toolchain.
 [Il2CppDumper](https://github.com/Perfare/Il2CppDumper) | Unity il2cpp reverse engineer. 
-[dnSpy](https://github.com/dnSpy/dnSpy) <br /> ![No Longer Maintained](https://img.shields.io/badge/No%20Longer%20Maintained-red.svg) | dnSpy is a debugger and .NET assembly editor. You can use it to edit and debug assemblies even if you don't have any source code available.
-[MegaDumper](https://github.com/CodeCracker-Tools/MegaDumper)  <br /> ![No Longer Maintained](https://img.shields.io/badge/No%20Longer%20Maintained-red.svg) | To extract missing DLLs from managed Directory.
+[dnSpy](https://github.com/dnSpy/dnSpy) <br /> ![No Longer Maintained](https://img.shields.io/badge/No%20Longer%20Maintained-red.svg) | dnSpy is a debugger and .NET assembly editor. You can use it to edit and debug assemblies even if you don't have any source code available. <br /> **Working but you can use ``dnSpyEx`` instead.**
+[MegaDumper](https://github.com/CodeCracker-Tools/MegaDumper)  <br /> ![No Longer Maintained](https://img.shields.io/badge/No%20Longer%20Maintained-red.svg) | Dump native and .NET assemblies.
 
 
 ## Extracting assets
@@ -103,15 +103,15 @@ Content of these files can be unpacked with one of these tools :
 
 Tool | Description
 --- | ---
-[AssetRipper](https://github.com/AssetRipper/AssetRipper) | AssetRipper is a tool for extracting assets from serialized files (CAB-*, *.assets, *.sharedAssets, etc.) and assets bundles (*.unity3d, *.bundle, etc.) and converting them into the native Unity engine format. It's a fork of ``uTinyRipper``.
+[AssetRipper](https://github.com/AssetRipper/AssetRipper) | AssetRipper is a tool for extracting assets from serialized files (CAB-*, *.assets, *.sharedAssets, etc.) and assets bundles (*.unity3d, *.bundle, etc.) and converting them into the native Unity engine format. <br /> **Fork of ``uTinyRipper``.**
 [Unity Assets Bundle Extractor](https://github.com/SeriousCache/UABE) | UABE is an editor for 3.4+/4/5/2017-2021.3 .assets and AssetBundle files. It can create standalone mod installers from changes to .assets and/or bundles.
 [QuickBMS](https://aluigi.altervista.org/quickbms.htm) with [this script](https://aluigi.altervista.org/bms/unity.bms) or [this one for webplayer](https://aluigi.altervista.org/bms/unity3d_webplayer.bms) | universal script based files extractor and reimporter. QuickBMS supports tons of games and file formats, archives, encryptions, compressions, obfuscations and other algorithms.
 [DevXUnityUnpacker](https://devxdevelopment.com/Unpacker) | A (paid) tool with a friendly GUI meant for restoring unity projects by inputting the built game/app including a previewer for individual files as image, hex, text etc.
-[uTinyRipper](https://github.com/mafaca/UtinyRipper) <br /> ![No Longer Maintained](https://img.shields.io/badge/No%20Longer%20Maintained-red.svg) | (This project is no longer maintained, use AssetRipper Instead) uTinyRipper is a tool for extracting assets from serialized files (CAB-\*, \*.assets, \*.sharedAssets, etc.) and assets bundles (\*.unity3d, \*.assetbundle, etc.) and conveting them into native Engine format.
+[uTinyRipper](https://github.com/mafaca/UtinyRipper) <br /> ![No Longer Maintained](https://img.shields.io/badge/No%20Longer%20Maintained-red.svg) | uTinyRipper is a tool for extracting assets from serialized files (CAB-\*, \*.assets, \*.sharedAssets, etc.) and assets bundles (\*.unity3d, \*.assetbundle, etc.) and conveting them into native Engine format. <br /> **Use ``AssetRipper`` Instead**
 [Unity Studio / AssetStudio](https://github.com/RaduMC/AssetStudio) <br /> ![No Longer Maintained](https://img.shields.io/badge/No%20Longer%20Maintained-red.svg) | AssetStudio is an independent tool for exploring, extracting and exporting assets.
 [Unity Assets Explorer](https://zenhax.com/viewtopic.php?t=36) <br /> ![No Longer Maintained](https://img.shields.io/badge/No%20Longer%20Maintained-red.svg) | Unity Assets Explorer is used to view the contents of Assets-files (Unity 3D engine). Allows you to: Extract all files, extract one file (from context menu), convert tex-files into a picture format DDS (on extraction), import the changed DDS-images to the archive.
 
-Some of these tools can do more than just extract assets.
+> **Do not use UnityEX**, it is most likely a virus.
 
 ### DDS files :
 
