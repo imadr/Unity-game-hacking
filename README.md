@@ -109,7 +109,7 @@ Tool | Description
 [DevXUnityUnpacker](https://devxdevelopment.com/Unpacker) | A (paid) tool with a friendly GUI meant for restoring unity projects by inputting the built game/app including a previewer for individual files as image, hex, text etc.
 UnityEX | Tool for extracting/converting files from .assets bundles and replacing files (Mostly used for replacing textures).
 [uTinyRipper](https://github.com/mafaca/UtinyRipper) <br /> ![No Longer Maintained](https://img.shields.io/badge/No%20Longer%20Maintained-red.svg) | (This project is no longer maintained, use AssetRipper Instead) uTinyRipper is a tool for extracting assets from serialized files (CAB-\*, \*.assets, \*.sharedAssets, etc.) and assets bundles (\*.unity3d, \*.assetbundle, etc.) and conveting them into native Engine format.
-[Unity Studio](https://github.com/RaduMC/UnityStudio) <br /> ![No Longer Maintained](https://img.shields.io/badge/No%20Longer%20Maintained-red.svg) |  A tool for exploring, extracting and exporting assets from Unity games and apps.
+[Unity Studio / AssetStudio](https://github.com/RaduMC/AssetStudio) <br /> ![No Longer Maintained](https://img.shields.io/badge/No%20Longer%20Maintained-red.svg) | AssetStudio is an independent tool for exploring, extracting and exporting assets.
 [Unity Assets Explorer](https://zenhax.com/viewtopic.php?t=36) <br /> ![No Longer Maintained](https://img.shields.io/badge/No%20Longer%20Maintained-red.svg) | Unity Assets Explorer is used to view the contents of Assets-files (Unity 3D engine). Allows you to: Extract all files, extract one file (from context menu), convert tex-files into a picture format DDS (on extraction), import the changed DDS-images to the archive.
 
 Some of these tools can do more than just extract assets.
