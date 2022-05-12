@@ -28,7 +28,6 @@ This is a small guide for extracting and modifying assets or code from games mad
       ...
    |  sharedassetsN.assets
    |  sharedassetsN.assets.resS
-   |  resources.assets
    ├──Managed
    │    Assembly-CSharp.dll
    │    Assembly-UnityScript.dll
