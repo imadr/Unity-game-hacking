@@ -20,6 +20,9 @@ This is a small guide for extracting and modifying assets or code from games mad
       ...
    |  levelN
    |  levelN.resS
+   |  resources.assets
+   |  resources.assets.resS
+   |  resources.resource
    │  sharedassets0.assets
    │  sharedassets0.assets.resS
       ...
@@ -63,11 +66,11 @@ This is a small guide for extracting and modifying assets or code from games mad
 File/Directory | Description
 --- | ---
 *.exe | Executable file of the game
-*_Data | Data folder containing the game resources
+`*_Data` | Data folder containing the game resources
 level0-levelN | Files containing game scenes data, each scene has its own file
 sharedassets0-sharedassetsN | Game assets are split into sharedassets and .resS files (sharedassets.assets.split0 - ..splitN on platforms like Android/iOS)
 resources.assets | Raw Assets found in the project resources folders and their dependencies are stored in this file (as well as raw audio files, even if outside of Resources folder in Unity, AudioClips with references to .resource and info such as audio size/offset still stored inside .assets)
-Managed | Folder containing unity DLLs
+`Managed` | Folder containing unity DLLs
 Assembly-CSharp.dll | DLL file containing compiled C# files
 Assembly-UnityScript.dll | DLL file containing compiled UnityScript files
 
@@ -76,7 +79,7 @@ With ``*`` : The name of the main executable (.exe).
 
 ## Extracting and editing code
 
-C# and UnityScript files are compiled into the Assembly-CSharp.dll and Assembly-UnityScript.dll DLLs respectively, which can be found inside the Managed folder.
+C# and UnityScript files are compiled into the Assembly-CSharp.dll and Assembly-UnityScript.dll DLLs respectively, which can be found inside the `Managed` folder.
 
 DLLs can be decompiled using ILSpy, dnSpy, DotPeek or JustAssembly which allow modifying and recompiling assembly files.
 
@@ -86,8 +89,10 @@ Tool | Decription
 --- | ---
 [ILSpy](https://github.com/icsharpcode/ILSpy) | Cross-platform .NET Decompiler with support for PDB generation, ReadyToRun, Metadata (&more).
 [DotPeek](https://www.jetbrains.com/decompiler/) | JetBrains DotPeek is a free .NET Decompiler and Assembly Browser.
-[dnSpy](https://github.com/dnSpy/dnSpy) | dnSpy is a debugger and .NET assembly editor. You can use it to edit and debug assemblies even if you don't have any source code available.
+[dnSpyEx](https://github.com/dnSpyEx/dnSpy) | Unofficial revival of the well known .NET debugger and assembly editor, dnSpy.
 [Telerik JustAssembly](https://www.telerik.com/justassembly) | Decompile and Compare .NET Assemblies. Binary Code Diff. Method Diff.
+[Cpp2IL](https://github.com/SamboyCoding/Cpp2IL) | Work-in-progress tool to reverse unity's IL2CPP toolchain.
+[dnSpy](https://github.com/dnSpy/dnSpy) <br /> ![No Longer Maintained](https://img.shields.io/badge/No%20Longer%20Maintained-red.svg) | dnSpy is a debugger and .NET assembly editor. You can use it to edit and debug assemblies even if you don't have any source code available.
 [MegaDumper](https://github.com/CodeCracker-Tools/MegaDumper)  <br /> ![No Longer Maintained](https://img.shields.io/badge/No%20Longer%20Maintained-red.svg) | To extract missing DLLs from managed Directory.
 
 
