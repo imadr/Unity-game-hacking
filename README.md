@@ -91,6 +91,7 @@ Tool | Decription
 [dnSpyEx](https://github.com/dnSpyEx/dnSpy) | Unofficial revival of the well known .NET debugger and assembly editor, dnSpy.
 [Telerik JustAssembly](https://www.telerik.com/justassembly) | Decompile and Compare .NET Assemblies. Binary Code Diff. Method Diff.
 [Cpp2IL](https://github.com/SamboyCoding/Cpp2IL) | Work-in-progress tool to reverse unity's IL2CPP toolchain.
+[Il2CppDumper](https://github.com/Perfare/Il2CppDumper) | Unity il2cpp reverse engineer. 
 [dnSpy](https://github.com/dnSpy/dnSpy) <br /> ![No Longer Maintained](https://img.shields.io/badge/No%20Longer%20Maintained-red.svg) | dnSpy is a debugger and .NET assembly editor. You can use it to edit and debug assemblies even if you don't have any source code available.
 [MegaDumper](https://github.com/CodeCracker-Tools/MegaDumper)  <br /> ![No Longer Maintained](https://img.shields.io/badge/No%20Longer%20Maintained-red.svg) | To extract missing DLLs from managed Directory.
 
