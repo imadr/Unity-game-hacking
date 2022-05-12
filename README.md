@@ -82,7 +82,7 @@ C# and UnityScript files are compiled into the Assembly-CSharp.dll and Assembly-
 
 DLLs can be decompiled using ILSpy, dnSpy, DotPeek or JustAssembly which allow modifying and recompiling assembly files.
 
-If DLLs are missing from the managed directory, try dumping them using MegaDumper tool.
+If DLLs are missing from the managed directory, try dumping them using ``MegaDumper`` tool.
 
 Tool | Decription
 --- | ---
